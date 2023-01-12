@@ -144,7 +144,7 @@ class Autcontentcreator_Public {
 		// //return Response back to the Request
 		// return $responsed_data = json_decode( wp_remote_retrieve_body( $response ));
 
-		$response = "You Enter Subject ".$subject_value.". And Keyword Value is ".$keyword_value.". In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. "; 
+		$response = "Hi Dear, You Enter Subject ".$subject_value.". And Keyword Value is ".$keyword_value.". In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. "; 
 		return $response; 
 
 	}
