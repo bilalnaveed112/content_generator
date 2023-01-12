@@ -1,0 +1,52 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+
+#content_body {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 3% 3%;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #d2d5d7;
+    background-color: #f9f8f8;
+    border-radius: 1%;
+    box-shadow: 1px 13px 16px 2px #888888;
+}
+
+#content_body h5 {
+    text-align:center;
+}
+
+#content_generation_form .subject_input{
+    display: flex;
+    margin: 10px 0%;
+    flex-direction: column;
+}
+#content_generation_form .keyword_input{
+    display: flex;
+    margin: 10px 0%;
+    flex-direction: column;
+}
+
+#content_generation_form input[type="submit"] {
+    height: 25px;
+    background: #2271b1;
+    border-color: #2271b1;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: none;
+    border-radius: 6px;
+}
+
+#content_generation_form .subject_input label {
+ padding: 5px 0;  
+}
+#content_generation_form .keyword_input label {
+ padding: 5px 0;  
+}
+#responsed_data{
+padding: 10px;
+}
