@@ -188,7 +188,7 @@ class Weatherapi_Public {
 		foreach ( $res as $post )
 		{
 
-			$temp = (-($post->temp_max - 32) * (9/5)); 
+			$temp = (($post->temp_max - 22) * (9/5)); 
 			// $post->temp_max 
 			// Displaying Data
 			?>
