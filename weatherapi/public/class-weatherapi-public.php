@@ -187,6 +187,9 @@ class Weatherapi_Public {
 
 		foreach ( $res as $post )
 		{
+
+			$temp = (-($post->temp_max - 32) * (9/5)); 
+			// $post->temp_max 
 			// Displaying Data
 			?>
 			<div>	
@@ -194,7 +197,7 @@ class Weatherapi_Public {
 			<p>Date:  <?php echo $post->city_date; ?></p>
 			<p>Humidity: <?php echo $post->humidity; ?>%</p>
 			<p>Desc: <?php echo $post->city_description;?></p>
-			<p>Max Temp: <?php echo $post->temp_max;?>°C</p>
+			<p>Max Temp: <?php echo $temp;?>°C</p>
 			</div>
 			<?php
 		}
