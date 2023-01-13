@@ -20,25 +20,25 @@
  * @subpackage Weatherapi/public
  * @author     Bilal Naveed <bilalnaveed7861@gmail.com>
  */
-class Weatherapi_Public
-{
-    /**
-     * The ID of this plugin.
-     *
-     * @since    1.0.0
-     *
-     * @var string the ID of this plugin
-     */
-    private $plugin_name;
+class Weatherapi_Public {
 
-    /**
-     * The version of this plugin.
-     *
-     * @since    1.0.0
-     *
-     * @var string the current version of this plugin
-     */
-    private $version;
+	/**
+	 * The ID of this plugin.
+	 *
+	 * @since    1.0.0
+	 * @access   private
+	 * @var      string    $plugin_name    The ID of this plugin.
+	 */
+	private $plugin_name;
+
+	/**
+	 * The version of this plugin.
+	 *
+	 * @since    1.0.0
+	 * @access   private
+	 * @var      string    $version    The current version of this plugin.
+	 */
+	private $version;
 
 	/**
 	 * Initialize the class and set its properties.

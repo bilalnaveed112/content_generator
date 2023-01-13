@@ -160,8 +160,6 @@ class Autcontentcreator_Admin
                 $responsed_data = json_decode(wp_remote_retrieve_body($response));
             } ?>
 			<textarea id="responsed_data" rows="5">
-
-			<!-- Display Responce -->
 			<?php print_r($responsed_data->detail); ?>
 			</textarea>
 			</div>
